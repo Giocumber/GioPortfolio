@@ -1,10 +1,11 @@
 import DummyImage from "../assets/DummyImage.png";
 import { MdOutlineAccessTimeFilled } from "react-icons/md";
 import { TiGroup } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
-const Card = ({title, details, people, time}) => {
+const Card = ({title, details, people, time, link}) => {
   return (
-    <div className="border-2 border-gray-700 rounded-2xl overflow-hidden bg-gray-800 
+    <Link to={link} className="border-2 border-gray-700 rounded-2xl overflow-hidden bg-gray-800 
     duration-200 ease-out hover:scale-102 cursor-pointer">
       
       {/* Image */}
@@ -36,7 +37,7 @@ const Card = ({title, details, people, time}) => {
         </div>
       </div>
 
-    </div>
+    </Link>
   );
 };
 

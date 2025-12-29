@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import { Link } from "react-router-dom";
 
 const developedGamesMap = [
   {
@@ -6,7 +7,8 @@ const developedGamesMap = [
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "7",
-    time: "2 Weeks" 
+    time: "2 Weeks" ,
+    link: "/santelmo"
   },
 
   {
@@ -14,7 +16,8 @@ const developedGamesMap = [
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "5",
-    time: "1 Month" 
+    time: "1 Month" ,
+    link: "/dont-touch-my-duck"
   },
 
   {
@@ -22,7 +25,8 @@ const developedGamesMap = [
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "1",
-    time: "1 Month" 
+    time: "1 Month",
+    link: "/ratatata"
   },
 
   {
@@ -30,7 +34,8 @@ const developedGamesMap = [
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "1",
-    time: "1 Week" 
+    time: "1 Week",
+    link: "/keeno"
   },
 
   {
@@ -38,15 +43,18 @@ const developedGamesMap = [
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "1",
-    time: "1 Week" 
+    time: "1 Week",
+    link: "/giko"
   },
 
   {
-    title: "BulletBoi (2023)",
+    title: "Bullet Boi (2023)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "2",
-    time: "1 Month" 
+    time: "1 Month",
+    link: "/bullet-boi"
+
   },
 
   {
@@ -54,7 +62,8 @@ const developedGamesMap = [
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
     people: "1",
-    time: "1 Week" 
+    time: "1 Week",
+    link: "/gladiator-siege"
   },
 ]
 
@@ -70,6 +79,7 @@ const Projects = () => {
             details={game.details}
             people={game.people}
             time={game.time}
+            link={game.link}
           />
         ))}
       </div>
