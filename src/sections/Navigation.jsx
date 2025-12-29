@@ -20,16 +20,20 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-20 py-3 bg-black">
       <div className="flex justify-between items-center w-full ">
-        <Link to="/" className="text-5xl font-bold text-yellow">Gio Salceda</Link>
+        <Link to="/" >
+          <h1 className="text-5xl font-bold text-yellow">Gio Salceda</h1>
+          <h2 className="text-xl">Game Developer</h2>
+        </Link>
+
 
         <div className="flex space-x-3 h-fit">
           <Socials link="https://linkedin.com/your-username" icon={FaLinkedin} />
           <Socials link="https://itch.io/your-username" icon={FaItchIo} />
           <Socials link="https://github.com/your-username" icon={IoLogoGithub} />
         </div>
+
       </div>
 
-      <h2 className="text-xl">Game Developer</h2>
     </nav>
   );
 };
