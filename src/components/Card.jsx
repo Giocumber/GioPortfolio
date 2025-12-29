@@ -16,14 +16,17 @@ const Card = ({title, details, people, time, link}) => {
       />
 
       {/* Content */}
-      <div className="p-4">
-        <h1 className="text-2xl font-bold mb-2 text-white">{title}</h1>
-        <p className="text-gray-300 text-lg text-justify">
-          {details}
-        </p>
+      <div className="p-4 flex flex-col justify-between">
+        <div className="">
+          <h1 className="text-2xl font-bold mb-2 text-white">{title}</h1>
+          <p className="text-gray-300 text-lg text-justify  ">
+            {details}
+          </p>
+        </div>
 
-        {/* Dev Details */}
-        <div className="flex justify-end space-x-4">
+
+        {/* Dev Icon Details */}
+        <div className="flex justify-end space-x-4 ">
           <div className="flex items-center">
             <TiGroup/>
             <p>{people}</p>
