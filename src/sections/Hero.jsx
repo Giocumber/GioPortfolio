@@ -3,7 +3,7 @@ import GikoScreenshot from "../assets/GikoScreenshot.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center  relative">
+    <section id="home" className="flex flex-col items-center relative scroll-mt-24">
       
       {/* Background image */}
       <img
@@ -36,7 +36,7 @@ const Hero = () => {
           meaningful interactive experience.
         </span>
       </p>
-    </div>
+    </section>
   );
 };
 

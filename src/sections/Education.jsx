@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <section>
+    <section id="about" className="scroll-mt-28">
       <h1 className="text-4xl font-bold mb-4 text-yellow">Education</h1>
 
       <div className="bg-gray-800 p-5 rounded-lg">

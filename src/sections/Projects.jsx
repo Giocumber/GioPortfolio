@@ -1,5 +1,4 @@
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
 
 const developedGamesMap = [
   {
@@ -66,10 +65,9 @@ const developedGamesMap = [
     link: "/gladiator-siege"
   },
 ]
-
 const Projects = () => {
   return (
-    <section>
+    <section id="projects" className="scroll-mt-28">
       <h1 className="text-4xl font-bold mb-5 text-yellow">Developed Projects</h1>
       <div className="grid grid-cols-3 gap-6">
         {developedGamesMap.map((game, index) => (
