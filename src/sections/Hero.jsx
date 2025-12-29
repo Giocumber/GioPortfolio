@@ -5,7 +5,6 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center  relative">
       
-      {/* <img src={GioImage} alt="Profile Picture" className="w-75 rounded-full border-3 border-yellow" /> */}
       {/* Background image */}
       <img
         src={GikoScreenshot}
