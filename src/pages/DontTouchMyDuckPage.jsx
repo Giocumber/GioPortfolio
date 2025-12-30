@@ -1,5 +1,5 @@
 import GamePageLayout from "../components/GamePageLayout";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import DontTouchMyDuck from "../assets/DontTouchMyDuck.png";
 import ContributionList from "../components/ContributionList";
 
 const DontTouchMyDuckPage = () => {
@@ -7,7 +7,7 @@ const DontTouchMyDuckPage = () => {
     <div className="space-y-16">
       <GamePageLayout
         title={"Don't Touch My Duck: Crops and Quacks"}
-        image={GikoScreenshot}
+        image={DontTouchMyDuck}
         description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Sed venenatis ex magna, ac maximus mauris porttitor nec. 
           Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

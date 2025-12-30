@@ -1,7 +1,7 @@
 import { IoLogoGithub } from "react-icons/io5";
 import { FaItchIo } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -31,8 +31,10 @@ const Navigation = () => {
   const [active, setActive] = useState("home");
   const location = useLocation();
 
+  // Scroll to section if location state has scrollTo === about
   useEffect(() => {
     if (!location.state?.scrollTo) return;
+    if (location.state?.scrollTo === "home") return;
 
     // Wait for DOM + IntersectionObserver to attach
     requestAnimationFrame(() => {

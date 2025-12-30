@@ -1,5 +1,5 @@
 import GamePageLayout from "../components/GamePageLayout";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import GladiatorSiege from "../assets/GladiatorSiege.png";
 import ContributionList from "../components/ContributionList";
 
 const GladiatorSiegePage = () => {
@@ -7,7 +7,7 @@ const GladiatorSiegePage = () => {
     <div className="space-y-16">
       <GamePageLayout
         title={"Gladiator Siege"}
-        image={GikoScreenshot}
+        image={GladiatorSiege}
         description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Sed venenatis ex magna, ac maximus mauris porttitor nec. 
           Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

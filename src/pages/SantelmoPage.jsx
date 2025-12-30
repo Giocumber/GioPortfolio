@@ -1,5 +1,5 @@
 import GamePageLayout from "../components/GamePageLayout";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import Santelmo from "../assets/Santelmo.png";
 import ContributionList from "../components/ContributionList";
 
 const SantelmoPage = () => {
@@ -8,7 +8,7 @@ const SantelmoPage = () => {
 
       <GamePageLayout
         title={"Santelmo"}
-        image={GikoScreenshot}
+        image={Santelmo}
         description={
           `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Sed venenatis ex magna, ac maximus mauris porttitor nec. 

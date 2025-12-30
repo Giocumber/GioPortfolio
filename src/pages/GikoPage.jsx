@@ -1,5 +1,5 @@
 import GamePageLayout from "../components/GamePageLayout";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import Giko from "../assets/Giko.png";
 import ContributionList from "../components/ContributionList";
 
 const GikoPage = () => {
@@ -7,7 +7,7 @@ const GikoPage = () => {
     <div className="space-y-16">
       <GamePageLayout
         title={"Giko"}
-        image={GikoScreenshot}
+        image={Giko}
         description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Sed venenatis ex magna, ac maximus mauris porttitor nec. 
           Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

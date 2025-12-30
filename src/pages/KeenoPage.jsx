@@ -1,5 +1,5 @@
 import GamePageLayout from "../components/GamePageLayout";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import Keeno from "../assets/Keeno.png";
 import ContributionList from "../components/ContributionList";
 
 const KeenoPage = () => {
@@ -7,7 +7,7 @@ const KeenoPage = () => {
     <div className="space-y-16">
       <GamePageLayout
         title={"Keeno"}
-        image={GikoScreenshot}
+        image={Keeno}
         description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Sed venenatis ex magna, ac maximus mauris porttitor nec. 
           Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

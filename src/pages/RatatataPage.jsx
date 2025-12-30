@@ -1,5 +1,5 @@
 import GamePageLayout from "../components/GamePageLayout";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import Ratatata from "../assets/Ratatata.png";
 import ContributionList from "../components/ContributionList";
 
 const RatatataPage = () => {
@@ -7,7 +7,7 @@ const RatatataPage = () => {
     <div className="space-y-16">
       <GamePageLayout
         title={"Ratatata"}
-        image={GikoScreenshot}
+        image={Ratatata}
         description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Sed venenatis ex magna, ac maximus mauris porttitor nec. 
           Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
