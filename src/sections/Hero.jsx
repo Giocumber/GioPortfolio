@@ -1,5 +1,5 @@
 import GioImage from "../assets/GioImage.jpg";
-import GikoScreenshot from "../assets/GikoScreenshot.png";
+import Background from "../assets/Background.png";
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       
       {/* Background image */}
       <img
-        src={GikoScreenshot}
+        src={Background}
         alt="Background Picture"
         className="w-full h-100 object-cover opacity-85"
       />

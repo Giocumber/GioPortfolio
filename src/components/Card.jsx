@@ -1,16 +1,17 @@
-import DummyImage from "../assets/DummyImage.png";
+import Santelmo from "../assets/Santelmo.png";
+
 import { MdOutlineAccessTimeFilled } from "react-icons/md";
 import { TiGroup } from "react-icons/ti";
 import { Link } from "react-router-dom";
 
-const Card = ({title, details, people, time, link}) => {
+const Card = ({image, title, details, people, time, link}) => {
   return (
     <Link to={link} className="border-2 border-gray-700 rounded-2xl overflow-hidden bg-gray-800 
     duration-200 ease-out hover:scale-102 cursor-pointer">
       
       {/* Image */}
       <img
-        src={DummyImage}
+        src={image}
         alt="Game Thumbnail"
         className="w-full h-55 object-cover"
       />

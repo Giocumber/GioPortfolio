@@ -1,7 +1,15 @@
 import Card from "../components/Card";
+import Santelmo from "../assets/Santelmo.png"
+import DontTouchMyDuck from "../assets/DontTouchMyDuck.png"
+import Ratatata from "../assets/Ratatata.png"
+import Keeno from "../assets/Keeno.png"
+import Giko from "../assets/Giko.png"
+import BulletBoi from "../assets/BulletBoi.png"
+import GladiatorSiege from "../assets/GladiatorSiege.png"
 
 const developedGamesMap = [
   {
+    image: Santelmo,
     title: "Santelmo (2025)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -11,6 +19,7 @@ const developedGamesMap = [
   },
 
   {
+    image: DontTouchMyDuck,
     title: "Dont Touch My Duck: Crops and Quack (2025)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -20,6 +29,7 @@ const developedGamesMap = [
   },
 
   {
+    image: Ratatata,
     title: "Ratatata (2024)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -29,6 +39,7 @@ const developedGamesMap = [
   },
 
   {
+    image: Keeno,
     title: "Keeno (2024)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -38,6 +49,7 @@ const developedGamesMap = [
   },
 
   {
+    image: Giko,
     title: "Giko (2024)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -47,6 +59,7 @@ const developedGamesMap = [
   },
 
   {
+    image: BulletBoi,
     title: "Bullet Boi (2023)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -57,6 +70,7 @@ const developedGamesMap = [
   },
 
   {
+    image: GladiatorSiege,
     title: "Gladiator Siege (2023)",
     details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis
               ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula.`,
@@ -65,6 +79,7 @@ const developedGamesMap = [
     link: "/gladiator-siege"
   },
 ]
+
 const Projects = () => {
   return (
     <section id="projects" className="scroll-mt-28">
@@ -73,6 +88,7 @@ const Projects = () => {
         {developedGamesMap.map((game, index) => (
           <Card 
             key={index}
+            image={game.image}
             title={game.title}
             details={game.details}
             people={game.people}
