@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 
 const Socials = ({ link, icon: Icon }) => {
   return (
@@ -31,17 +32,7 @@ const Navigation = () => {
   const [active, setActive] = useState("home");
   const location = useLocation();
 
-  // Scroll to section if location state has scrollTo === about
-  useEffect(() => {
-    if (!location.state?.scrollTo) return;
-    if (location.state?.scrollTo === "home") return;
-
-    // Wait for DOM + IntersectionObserver to attach
-    requestAnimationFrame(() => {
-      scrollToSection(location.state.scrollTo);
-    });
-  }, [location.state]);
-
+  // Observe which part of the landing page the user is viewing
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -52,7 +43,7 @@ const Navigation = () => {
         });
       },
       {
-        rootMargin: "-50% 0px -50% 0px",
+        rootMargin: "-30% 0px -70% 0px",
         threshold: 0,
       }
     );
@@ -62,7 +53,6 @@ const Navigation = () => {
       if (el) observer.observe(el);
     });
 
-    
     return () => observer.disconnect();
   }, [location.pathname]);
 
@@ -76,17 +66,45 @@ const Navigation = () => {
   const isHome = location.pathname === "/";
   const navigate = useNavigate();
 
-  const handleButtonClick = (section) => {
-    if(isHome){
-      scrollToSection(section);
-    }else{
-      navigate("/", { state: { scrollTo: section } });
+  useEffect(() => {
+    if (!location.state?.scrollTo) {
+      scrollToSection("home");
     }
-  }
+
+    if (location.state?.scrollTo) {
+      scrollToSection(location.state.scrollTo);
+
+      // clear state so it doesn't scroll again on refresh
+      window.history.replaceState({}, document.title);
+    }
+  }, [location.state]);
+
+  const handleButtonClick = async (section) => {
+    if (isHome) {
+      scrollToSection(section);
+      return;
+    }
+
+    if (!isHome && section === "home") {
+      navigate("/");
+      return;
+    }
+
+    if (!isHome && section === "projects") {
+      navigate(-1);
+      return;
+    }
+
+    if (!isHome && section === "about") {
+      navigate("/", { state: { scrollTo: section } });
+      return;
+    }
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-20 py-3 bg-black ">
       <div className="flex justify-between items-center w-full ">
+        {/* GIO SALCEDA: GAME DEV */}
         <button
           onClick={() => handleButtonClick("home")}
           className="cursor-pointer text-start"
@@ -95,8 +113,9 @@ const Navigation = () => {
           <h2 className="text-xl ">Game Developer</h2>
         </button>
 
-
+        {/* NAV BUTTONS */}
         <div className="flex space-x-12 text-2xl">
+          {/* HOME */}
           <button
             onClick={() => handleButtonClick("home")}
             className={getButtonStyle("home")}
@@ -104,13 +123,15 @@ const Navigation = () => {
             <h2>HOME</h2>
           </button>
 
+          {/* PROJECTS */}
           <button
-            onClick={() => scrollToSection("projects")}
+            onClick={() => handleButtonClick("projects")}
             className={getButtonStyle("projects")}
           >
             <h2>PROJECTS</h2>
           </button>
 
+          {/* ABOUT */}
           <button
             onClick={() => handleButtonClick("about")}
             className={getButtonStyle("about")}
@@ -119,6 +140,7 @@ const Navigation = () => {
           </button>
         </div>
 
+        {/* SOCIALS */}
         <div className="flex space-x-4">
           <Socials
             link="https://linkedin.com/your-username"
