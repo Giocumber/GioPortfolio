@@ -19,13 +19,11 @@ const BulletBoiPage = () => {
       <ContributionList
         role={"Gameplay Programmer"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Implemented core gameplay mechanics, including player shooting and teleportation.
+          - Developed health systems for both player and enemies.
+          - Built game systems for winning, losing, and progression.
+          - Implemented visual feedback to enhance gameplay, including particle effects and animations.
+          - Designed and built UI/UX, ensuring smooth and intuitive player interaction.
           `}
       />
     </div>

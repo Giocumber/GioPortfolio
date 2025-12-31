@@ -22,13 +22,11 @@ const SantelmoPage = () => {
       <ContributionList
         role={"Project Lead | VFX Artist | Gameplay Programmer"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Designed and implemented core gameplay mechanics using Unity and C# including player movement, attacks, skills, health and NPC behavior.
+          - Developed the game environment system, including level progression and unlockable areas.
+          - Created and implemented in-game cutscenes to enhance storytelling.
+          - Designed and built game environments, including layout and interactive elements.
+          - Implemented environment visual effects (VFX) to enrich the game’s atmosphere.
           `}
       />
     </div>

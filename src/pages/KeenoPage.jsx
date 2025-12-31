@@ -19,13 +19,13 @@ const KeenoPage = () => {
       <ContributionList
         role={"Solo Dev | Gameplay Programmer | Game Visual Artist"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Solo developer responsible for all aspects of the game.
+          - Modeled and animated 3D assets for both the player and enemy chef using Blender.
+          - Implemented core gameplay systems and mechanics, including player movement, stealth, and enemy interactions.
+          - Built detection mechanics using raycasting.
+          - Implemented visual feedback, including particle effects, camera shake, and knockback.
+          - Developed camera movement to ensure smooth gameplay experience.
+          - Designed and built UI/UX, providing intuitive player interaction.
           `}
       />
     </div>

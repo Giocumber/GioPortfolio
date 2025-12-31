@@ -17,15 +17,16 @@ const DontTouchMyDuckPage = () => {
       />
 
       <ContributionList
-        role={"Gameplay Programmer | Animator"}
+        role={"Gameplay Programmer | Animator | VFX Artist"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Implemented core gameplay mechanics, including player movement and interactions.
+          - Developed duck systems, including combat, health, unique behaviors, animations, and attack VFX.
+          - Created crop systems with unique behaviors, growth cycles, and interactive mechanics.
+          - Added visual feedback for all interactions, including buying, selling, harvesting, and watering plants.
+          - Built inventory and item systems, supporting shared interactions with unique behaviors per item.
+          - Implemented shop functionality and system for player transactions.
+          - Developed the grid placement system for strategic unit deployment.
+          - Animated core player movements for smooth and responsive controls.
           `}
       />
     </div>

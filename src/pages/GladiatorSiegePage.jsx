@@ -19,13 +19,12 @@ const GladiatorSiegePage = () => {
       <ContributionList
         role={"Solo Dev | Gameplay Programmer"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Implemented complete gameplay mechanics and systems, including player and orc interactions.
+          - Developed game progression, including winning and losing conditions and scene transitions after each round.
+          - Implemented multiplayer inputs and actions for competitive gameplay.
+          - Built health systems for players and orc units.
+          - Designed and developed UI/UX for smooth player interaction.
+          - Note: All 2D assets were sourced online; all gameplay systems and mechanics were independently developed.
           `}
       />
     </div>

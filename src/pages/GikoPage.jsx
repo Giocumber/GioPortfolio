@@ -19,13 +19,11 @@ const GikoPage = () => {
       <ContributionList
         role={"Solo Dev | Gameplay Programmer"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Solo developer, responsible for designing and implementing all gameplay systems and mechanics.
+          - Implemented range detection and game progression systems, including losing conditions and level transitions.
+          - Designed levels to provide engaging player challenges.
+          - Created UI/UX for smooth player interaction.
+          - Note: All 3D assets were sourced from the Unity Asset Store, all gameplay systems and mechanics were developed independently.
           `}
       />
     </div>

@@ -17,15 +17,15 @@ const RatatataPage = () => {
       />
 
       <ContributionList
-        role={"Solo Dev | 2D Artist | Gameplay Programmer"}
+        role={"Solo Dev | 2D Artist | Gameplay Programmer | VFX Artist"}
         contributions={`
-          Gameplay Systems:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
-
-          Game Visuals:
-          - Designed and implemented core gameplay mechanics using Unity and C#.
-          - Developed an intuitive user interface to enhance player experience.
+          - Implemented complete gameplay mechanics, including player movement, attacks, skills, and health systems.
+          - Developed enemy AI, including standard enemies and a boss with phased attacks and unique behaviors.
+          - Designed and implemented game feedback systems, such as camera shake, knockback, and visual feedback using particle effects.
+          - Created and integrated all art assets and animations, giving the game its visual identity.
+          - Implemented environment visual effects (VFX) to enhance atmosphere and gameplay.
+          - Designed and built UI/UX, ensuring intuitive player interaction.
+          - Designed overall visual design, maintaining a cohesive aesthetic throughout the game.
           `}
       />
     </div>
