@@ -8,12 +8,11 @@ const DontTouchMyDuckPage = () => {
       <GamePageLayout
         title={"Don't Touch My Duck: Crops and Quacks"}
         image={DontTouchMyDuck}
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`}
+        description={`A tower defense–farming hybrid where players manage crops to fuel their defenses
+           against incoming threats. The game blends strategic placement, resource management, 
+           and real-time combat, encouraging players to balance farming efficiency with defensive planning. 
+           Through its mechanics and theme, the game highlights the importance of agriculture and sustainable 
+           resource use.`}
       />
 
       <ContributionList

@@ -8,12 +8,10 @@ const GikoPage = () => {
       <GamePageLayout
         title={"Giko"}
         image={Giko}
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`}
+        description={`A 3D multiplayer cooperative game where two geckos embark on an adventure together, 
+          requiring constant coordination to stay within range of each other while navigating 
+          environmental obstacles. Straying too far apart triggers an explosive consequence, 
+          pushing players to communicate, plan movements, and work closely as a team.`}
       />
 
       <ContributionList

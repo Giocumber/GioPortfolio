@@ -8,12 +8,10 @@ const KeenoPage = () => {
       <GamePageLayout
         title={"Keeno"}
         image={Keeno}
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`}
+        description={`A 3D casual stealth game where players control a rat sneaking in to steal 
+          a single piece of cheese while the chef is distracted. 
+          Timing and awareness are key, as the rat must hide the moment the 
+          chef turns around face a deadly shotgun blast.`}
       />
 
       <ContributionList

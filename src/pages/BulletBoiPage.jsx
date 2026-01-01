@@ -8,12 +8,10 @@ const BulletBoiPage = () => {
       <GamePageLayout
         title={"Bullet Boi"}
         image={BulletBoi}
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`}
+        description={`A fast-paced 2D shooter built around a unique teleportation mechanic, 
+          where players weaponize their own flesh as bullets and instantly warp to each shot. 
+          The game emphasizes aggressive repositioning, quick decision-making, and fluid combat 
+          while battling relentless robotic enemies.`}
       />
 
       <ContributionList

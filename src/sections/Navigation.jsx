@@ -4,7 +4,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { AiOutlineConsoleSql } from "react-icons/ai";
 
 const Socials = ({ link, icon: Icon }) => {
   return (
@@ -143,12 +142,13 @@ const Navigation = () => {
         {/* SOCIALS */}
         <div className="flex space-x-4">
           <Socials
-            link="https://linkedin.com/your-username"
+            link="https://linkedin.com/in/gio-salceda-2a36b43a2"
+            
             icon={FaLinkedin}
           />
-          <Socials link="https://itch.io/your-username" icon={FaItchIo} />
+          <Socials link="https://newmouse.itch.io/" icon={FaItchIo} />
           <Socials
-            link="https://github.com/your-username"
+            link="https://github.com/Giocumber"
             icon={IoLogoGithub}
           />
         </div>

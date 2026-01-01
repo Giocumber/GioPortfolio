@@ -13,7 +13,7 @@ const GamePageLayout = ({ image, title, description }) => {
         <img src={image} alt={title} className="max-w-3/5 rounded-2xl"></img>
 
         <div className="flex flex-col justify-between w-full">
-          <p className="text-justify text-xl">{description}</p>
+          <p className="text-justify text-2xl text-gray-300">{description}</p>
 
           <div className="flex justify-between space-x-4">
             <button className="text-center p-3 rounded-xl border-4 border-blue-600 font-bold w-44 text-2xl cursor-pointer" onClick={() => navigate(-1)}>Back</button>

@@ -8,12 +8,10 @@ const GladiatorSiegePage = () => {
       <GamePageLayout
         title={"Gladiator Siege"}
         image={GladiatorSiege}
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`}
+        description={`A multiplayer casual PvP game where players compete against one another, 
+          defending their own base while launching attacks on opposing forces. 
+          The game emphasizes fast-paced combat, quick decision-making, 
+          and strategic offense and defense.`}
       />
 
       <ContributionList

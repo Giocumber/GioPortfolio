@@ -10,12 +10,12 @@ const SantelmoPage = () => {
         title={"Santelmo"}
         image={Santelmo}
         description={
-          `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`
+          `An action-adventure game inspired by Bicolano culture and folklore, 
+          where players take on the role of Santelmo, a glowing fire spirit that guides 
+          and protects lost souls through a mystical forest. The game blends exploration, combat, 
+          and environmental challenges, featuring mythological creatures drawn from local legends. 
+          Through its atmosphere, mechanics, and visual style, the game aims to introduce players 
+          to the rich stories and myths of the Bicol region.`
         }
       />
 

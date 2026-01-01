@@ -8,12 +8,10 @@ const RatatataPage = () => {
       <GamePageLayout
         title={"Ratatata"}
         image={Ratatata}
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. 
-          Sed vel gravida ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed venenatis ex magna, ac maximus mauris porttitor nec. Sed vel gravida ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex magna, 
-          ac maximus mauris porttitor nec. Sed vel gravida ligula.`}
+        description={`A souls-like platformer where players take on the role of a rat wizard, 
+          mastering precise movement, timing, and spell-based combat to survive challenging 
+          encounters with dangerous creatures. The game emphasizes skill-based gameplay, 
+          deliberate pacing, and learning enemy patterns in a dark and unforgiving world.`}
       />
 
       <ContributionList
