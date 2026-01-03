@@ -83,8 +83,8 @@ const developedGamesMap = [
 const Projects = () => {
   return (
     <section id="projects" className="scroll-mt-28">
-      <h1 className="text-4xl font-bold mb-5 text-yellow">Developed Projects</h1>
-      <div className="grid grid-cols-3 gap-6">
+      <h1 className="text-2xl lg:text-4xl font-bold mb-5 text-yellow">Developed Projects</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {developedGamesMap.map((game, index) => (
           <Card 
             key={index}
