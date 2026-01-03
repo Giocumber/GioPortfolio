@@ -1,5 +1,5 @@
 const badgeStyle = (color) => {
-  return `px-3 py-1 bg-${color}-600 text-white rounded-full text-m`
+  return `px-3 py-1 ${color} text-white rounded-full text-m`
 }
 
 const TechnicalExperience = () => {
@@ -16,11 +16,11 @@ const TechnicalExperience = () => {
 
         {/* Tech Badges */}
         <div className="flex flex-wrap gap-2 ">
-          <span className={badgeStyle("cyan")}>Unity</span>
-          <span className={badgeStyle("green")}>C#</span>
-          <span className={badgeStyle("gray")}>C++</span>
-          <span className={badgeStyle("purple")}>Unity Shader</span>
-          <span className={badgeStyle("fuchsia")}>Game VFX</span>
+          <span className={badgeStyle("bg-cyan-600")}>Unity</span>
+          <span className={badgeStyle("bg-green-600")}>C#</span>
+          <span className={badgeStyle("bg-gray-600")}>C++</span>
+          <span className={badgeStyle("bg-purple-600")}>Unity Shader</span>
+          <span className={badgeStyle("bg-fuchsia-600")}>Game VFX</span>
         </div>
     
       </div>
@@ -34,10 +34,10 @@ const TechnicalExperience = () => {
 
         {/* Tech Badges */}
         <div className="flex flex-wrap gap-2 ">
-          <span className={badgeStyle("blue")}>JavaScript</span>
-          <span className={badgeStyle("green")}>GitHub</span>
-          <span className={badgeStyle("gray")}>Frontend</span>
-          <span className={badgeStyle("purple")}>Backend</span>
+          <span className={badgeStyle("bg-blue-600")}>JavaScript</span>
+          <span className={badgeStyle("bg-green-600")}>GitHub</span>
+          <span className={badgeStyle("bg-gray-600")}>Frontend</span>
+          <span className={badgeStyle("bg-purple-600")}>Backend</span>
         </div>
       </div>   
 

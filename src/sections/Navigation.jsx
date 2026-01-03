@@ -57,7 +57,7 @@ const Navigation = () => {
 
   // Function to generate class string
   const getButtonStyle = (name) => {
-    return `cursor-pointer text-2xl ${
+    return `cursor-pointer text-lg lg:text-2xl ${
       active === name ? "underline text-yellow font-semibold" : "text-gray-400"
     }`;
   };
@@ -113,7 +113,7 @@ const Navigation = () => {
         </button>
 
         {/* NAV BUTTONS */}
-        <div className="space-x-12 text-2xl hidden md:flex">
+        <div className="space-x-12  hidden md:flex">
           {/* HOME */}
           <button
             onClick={() => handleButtonClick("home")}
