@@ -11,9 +11,9 @@ const Socials = ({ link, icon: Icon }) => {
       href={link}
       target="_blank" // Open link in a new tab
       rel="noopener noreferrer" // Security best practice
-      className="text-2xl hover:text-yellow "
+      className=" hover:text-yellow "
     >
-      <Icon className="size-13" />
+      <Icon className="size-10 lg:size-13" />
     </a>
   );
 };
@@ -101,19 +101,19 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-20 py-3 bg-black ">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-5 lg:px-20 py-3 bg-black ">
       <div className="flex justify-between items-center w-full ">
         {/* GIO SALCEDA: GAME DEV */}
         <button
           onClick={() => handleButtonClick("home")}
           className="cursor-pointer text-start"
         >
-          <h1 className="text-5xl font-bold text-yellow">Gio Salceda</h1>
-          <h2 className="text-xl ">Game Developer</h2>
+          <h1 className="text-3xl lg:text-5xl font-bold text-yellow  ">Gio Salceda</h1>
+          <h2 className="text-md ">Game Developer</h2>
         </button>
 
         {/* NAV BUTTONS */}
-        <div className="flex space-x-12 text-2xl">
+        <div className="space-x-12 text-2xl hidden md:flex">
           {/* HOME */}
           <button
             onClick={() => handleButtonClick("home")}
@@ -140,7 +140,7 @@ const Navigation = () => {
         </div>
 
         {/* SOCIALS */}
-        <div className="flex space-x-4">
+        <div className="flex space-x-2 lg:space-x-4">
           <Socials
             link="https://linkedin.com/in/gio-salceda-2a36b43a2"
             
