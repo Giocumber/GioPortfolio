@@ -4,7 +4,7 @@ import About from "../sections/About";
 
 const LandingPage = () => {
   return (
-    <div className="space-y-20">
+    <div className="space-y-10 lg:space-y-20">
       <Hero />
       <Projects />
       <About />

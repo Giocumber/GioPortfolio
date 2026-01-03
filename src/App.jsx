@@ -17,7 +17,7 @@ function App() {
     <div className="w-full min-h-screen bg-black text-white">
       <Navigation />
 
-      <main className="px-20 pt-24 space-y-20">
+      <main className="px-5 lg:px-20 pt-24 space-y-20">
         <Routes>
           <Route path="/" element={<LandingPage />} />
 
