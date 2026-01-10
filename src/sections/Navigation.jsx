@@ -153,7 +153,7 @@ const Navigation = () => {
           />
           
           <a
-            href="/GioSalceda-Resume.pdf"
+            href="/Gio_Salceda_Resume.pdf"
             download
             className=" hover:text-yellow flex flex-col items-center"
           >
