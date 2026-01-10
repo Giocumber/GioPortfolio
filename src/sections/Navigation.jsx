@@ -1,4 +1,3 @@
-import { IoLogoGithub } from "react-icons/io5";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaItchIo } from "react-icons/fa";
 import { HiNewspaper } from "react-icons/hi2";
