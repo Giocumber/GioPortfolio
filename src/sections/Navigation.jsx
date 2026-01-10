@@ -142,7 +142,7 @@ const Navigation = () => {
         </div>
 
         {/* SOCIALS */}
-        <div className="flex space-x-2 lg:space-x-4  items-center">
+        <div className="flex space-x-2 lg:space-x-4 items-center ">
           <Socials
             link="https://linkedin.com/in/gio-salceda-2a36b43a2"
             icon={FaLinkedin}
@@ -156,8 +156,9 @@ const Navigation = () => {
           <a
             href="/GioSalceda-Resume.pdf"
             download
+            className=" hover:text-yellow flex flex-col items-center"
           >
-            <HiNewspaper className="size-10 lg:size-14 hover:text-yellow"/>
+            <HiNewspaper className="size-12 lg:size-14 hover:text-yellow"/>
           </a>
 
         </div>

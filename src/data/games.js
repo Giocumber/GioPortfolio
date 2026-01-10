@@ -1,10 +1,46 @@
-import Ratatata from "../assets/Ratatata.png";
-import Keeno from "../assets/Keeno.png";
-import Giko from "../assets/Giko.png";
 import Santelmo from "../assets/Santelmo.png";
+import Santelmo1 from "../assets/Santelmo1.png";
+import Santelmo2 from "../assets/Santelmo2.png";
+import Santelmo3 from "../assets/Santelmo3.png";
+import Santelmo4 from "../assets/Santelmo4.png";
+import Santelmo5 from "../assets/Santelmo5.png";
+import Santelmo6 from "../assets/Santelmo6.png";
+import Santelmo7 from "../assets/Santelmo7.png";
+
 import DontTouchMyDuck from "../assets/DontTouchMyDuck.png";
+import DTMD1 from "../assets/DTMD1.png";
+import DTMD2 from "../assets/DTMD2.png";
+import DTMD3 from "../assets/DTMD3.png";
+
+
+import Ratatata from "../assets/Ratatata.png";
+import Ratatata1 from "../assets/Ratatata1.png";
+import Ratatata2 from "../assets/Ratatata2.png";
+import Ratatata3 from "../assets/Ratatata3.png";
+import Ratatata4 from "../assets/Ratatata4.png";
+import Ratatata5 from "../assets/Ratatata5.png";
+import Ratatata6 from "../assets/Ratatata6.png";
+import Ratatata7 from "../assets/Ratatata7.png";
+
+import Keeno from "../assets/Keeno.png";
+import Keeno1 from "../assets/Keeno1.png";
+import Keeno2 from "../assets/Keeno2.png";
+import Keeno3 from "../assets/Keeno3.png";
+
+import Giko from "../assets/Giko.png";
+import Giko1 from "../assets/Giko1.png";
+import Giko2 from "../assets/Giko2.png";
+import Giko3 from "../assets/Giko3.png";
+
 import BulletBoi from "../assets/BulletBoi.png";
+import BulletBoi1 from "../assets/BulletBoi1.png";
+import BulletBoi2 from "../assets/BulletBoi2.png";
+import BulletBoi3 from "../assets/BulletBoi3.png";
+
 import GladiatorSiege from "../assets/GladiatorSiege.png";
+import GladiatorSiege1 from "../assets/GladiatorSiege1.png";
+import GladiatorSiege2 from "../assets/GladiatorSiege2.png";
+import GladiatorSiege3 from "../assets/GladiatorSiege3.png";
 
 export const games = [
   {
@@ -17,10 +53,13 @@ export const games = [
     slug: "santelmo",
     slides: [
       { type: "youtube", url: "https://youtu.be/34g3vOz0oa8" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
-      { type: "image", src: Keeno },
-      { type: "image", src: Giko },
+      { type: "image", src: Santelmo1 },
+      { type: "image", src: Santelmo2 },
+      { type: "image", src: Santelmo3 },
+      { type: "image", src: Santelmo4 },
+      { type: "image", src: Santelmo5 },
+      { type: "image", src: Santelmo6 },
+      { type: "image", src: Santelmo7 },
     ],
     role: "Project Lead | VFX Artist | Gameplay Programmer",
     description: `An action-adventure game inspired by Bicolano culture and folklore, 
@@ -48,10 +87,9 @@ export const games = [
     slug: "dont-touch-my-duck",
     slides: [
       { type: "youtube", url: "https://youtu.be/5i9Lwmwk-M8" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
-      { type: "image", src: Keeno },
-      { type: "image", src: Giko },
+      { type: "image", src: DTMD1 },
+      { type: "image", src: DTMD2 },
+      { type: "image", src: DTMD3 },
     ],
     role: "Gameplay Programmer | Animator | VFX Artist",
     description: `A tower defense–farming hybrid where players manage crops to fuel their defenses
@@ -81,10 +119,14 @@ export const games = [
     slug: "ratatata",
     slides: [
       { type: "youtube", url: "https://youtu.be/nuwLPjQ3DZg" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
-      { type: "image", src: Keeno },
-      { type: "image", src: Giko },
+      { type: "image", src: Ratatata1 },
+      { type: "image", src: Ratatata2 },
+      { type: "image", src: Ratatata3 },
+      { type: "image", src: Ratatata4 },
+      { type: "image", src: Ratatata5 },
+      { type: "image", src: Ratatata6 },
+      { type: "image", src: Ratatata7 },
+
     ],
     role: "Solo Dev | 2D Artist | Gameplay Programmer | VFX Artist",
     description: `A souls-like platformer where players take on the role of a rat wizard, 
@@ -112,10 +154,10 @@ export const games = [
     slug: "keeno",
     slides: [
       { type: "youtube", url: "https://youtu.be/AAN6MpDasGQ" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
+      { type: "image", src: Keeno1 },
+      { type: "image", src: Keeno2 },
+      { type: "image", src: Keeno3 },
       { type: "image", src: Keeno },
-      { type: "image", src: Giko },
     ],
     role: "Solo Dev | Gameplay Programmer | Game Visual Artist",
     description: `A 3D casual stealth game where players control a rat sneaking in to steal 
@@ -143,10 +185,9 @@ export const games = [
     slug: "giko",
     slides: [
       { type: "youtube", url: "https://youtu.be/qpelFi4LhQY" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
-      { type: "image", src: Keeno },
-      { type: "image", src: Giko },
+      { type: "image", src: Giko1 },
+      { type: "image", src: Giko2 },
+      { type: "image", src: Giko3 },
     ],
     role: "Solo Dev | Gameplay Programmer | Game Visual Artist",
     description: `A 3D multiplayer cooperative game where two geckos embark on an adventure together, 
@@ -172,10 +213,11 @@ export const games = [
     slug: "bullet-boi",
     slides: [
       { type: "youtube", url: "https://youtu.be/EeRKCVPQ_vo" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
-      { type: "image", src: Keeno },
-      { type: "image", src: Giko },
+      { type: "image", src: BulletBoi1 },
+      { type: "image", src: BulletBoi2 },
+      { type: "image", src: BulletBoi3 },
+      { type: "image", src: BulletBoi },
+
     ],
     role: "Gameplay Programmer",
     description: `A fast-paced 2D shooter built around a unique teleportation mechanic, 
@@ -201,10 +243,10 @@ export const games = [
     slug: "gladiator-siege",
     slides: [
       { type: "youtube", url: "https://youtu.be/NxoUoae7biE" },
-      { type: "image", src: Santelmo },
-      { type: "image", src: Ratatata },
-      { type: "image", src: Keeno },
-      { type: "image", src: Giko },
+      { type: "image", src: GladiatorSiege },
+      { type: "image", src: GladiatorSiege1 },
+      { type: "image", src: GladiatorSiege2 },
+      { type: "image", src: GladiatorSiege3 },
     ],
     role: "Solo Dev | Gameplay Programmer",
     description: `A multiplayer casual PvP game where players compete against one another, 
