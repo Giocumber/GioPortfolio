@@ -1,46 +1,46 @@
-import Santelmo from "../assets/Santelmo.png";
-import Santelmo1 from "../assets/Santelmo1.png";
-import Santelmo2 from "../assets/Santelmo2.png";
-import Santelmo3 from "../assets/Santelmo3.png";
-import Santelmo4 from "../assets/Santelmo4.png";
-import Santelmo5 from "../assets/Santelmo5.png";
-import Santelmo6 from "../assets/Santelmo6.png";
-import Santelmo7 from "../assets/Santelmo7.png";
+import Santelmo from "../assets/Santelmo.jpg";
+import Santelmo1 from "../assets/Santelmo1.jpg";
+import Santelmo2 from "../assets/Santelmo2.jpg";
+import Santelmo3 from "../assets/Santelmo3.jpg";
+import Santelmo4 from "../assets/Santelmo4.jpg";
+import Santelmo5 from "../assets/Santelmo5.jpg";
+import Santelmo6 from "../assets/Santelmo6.jpg";
+import Santelmo7 from "../assets/Santelmo7.jpg";
 
-import DontTouchMyDuck from "../assets/DontTouchMyDuck.png";
-import DTMD1 from "../assets/DTMD1.png";
-import DTMD2 from "../assets/DTMD2.png";
-import DTMD3 from "../assets/DTMD3.png";
+import DontTouchMyDuck from "../assets/DontTouchMyDuck.jpg";
+import DTMD1 from "../assets/DTMD1.jpg";
+import DTMD2 from "../assets/DTMD2.jpg";
+import DTMD3 from "../assets/DTMD3.jpg";
 
+import Ratatata from "../assets/Ratatata.jpg";
+import Ratatata1 from "../assets/Ratatata1.jpg";
+import Ratatata2 from "../assets/Ratatata2.jpg";
+import Ratatata3 from "../assets/Ratatata3.jpg";
+import Ratatata4 from "../assets/Ratatata4.jpg";
+import Ratatata5 from "../assets/Ratatata5.jpg";
+import Ratatata6 from "../assets/Ratatata6.jpg";
+import Ratatata7 from "../assets/Ratatata7.jpg";
 
-import Ratatata from "../assets/Ratatata.png";
-import Ratatata1 from "../assets/Ratatata1.png";
-import Ratatata2 from "../assets/Ratatata2.png";
-import Ratatata3 from "../assets/Ratatata3.png";
-import Ratatata4 from "../assets/Ratatata4.png";
-import Ratatata5 from "../assets/Ratatata5.png";
-import Ratatata6 from "../assets/Ratatata6.png";
-import Ratatata7 from "../assets/Ratatata7.png";
+import Keeno from "../assets/Keeno.jpg";
+import Keeno1 from "../assets/Keeno1.jpg";
+import Keeno2 from "../assets/Keeno2.jpg";
+import Keeno3 from "../assets/Keeno3.jpg";
 
-import Keeno from "../assets/Keeno.png";
-import Keeno1 from "../assets/Keeno1.png";
-import Keeno2 from "../assets/Keeno2.png";
-import Keeno3 from "../assets/Keeno3.png";
+import Giko from "../assets/Giko.jpg";
+import Giko1 from "../assets/Giko1.jpg";
+import Giko2 from "../assets/Giko2.jpg";
+import Giko3 from "../assets/Giko3.jpg";
 
-import Giko from "../assets/Giko.png";
-import Giko1 from "../assets/Giko1.png";
-import Giko2 from "../assets/Giko2.png";
-import Giko3 from "../assets/Giko3.png";
+import BulletBoi from "../assets/BulletBoi.jpg";
+import BulletBoi1 from "../assets/BulletBoi1.jpg";
+import BulletBoi2 from "../assets/BulletBoi2.jpg";
+import BulletBoi3 from "../assets/BulletBoi3.jpg";
 
-import BulletBoi from "../assets/BulletBoi.png";
-import BulletBoi1 from "../assets/BulletBoi1.png";
-import BulletBoi2 from "../assets/BulletBoi2.png";
-import BulletBoi3 from "../assets/BulletBoi3.png";
+import GladiatorSiege from "../assets/GladiatorSiege.jpg";
+import GladiatorSiege1 from "../assets/GladiatorSiege1.jpg";
+import GladiatorSiege2 from "../assets/GladiatorSiege2.jpg";
+import GladiatorSiege3 from "../assets/GladiatorSiege3.jpg";
 
-import GladiatorSiege from "../assets/GladiatorSiege.png";
-import GladiatorSiege1 from "../assets/GladiatorSiege1.png";
-import GladiatorSiege2 from "../assets/GladiatorSiege2.png";
-import GladiatorSiege3 from "../assets/GladiatorSiege3.png";
 
 export const games = [
   {

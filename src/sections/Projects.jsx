@@ -1,11 +1,11 @@
 import Card from "../components/Card";
-import Santelmo from "../assets/Santelmo.png"
-import DontTouchMyDuck from "../assets/DontTouchMyDuck.png"
-import Ratatata from "../assets/Ratatata.png"
-import Keeno from "../assets/Keeno.png"
-import Giko from "../assets/Giko.png"
-import BulletBoi from "../assets/BulletBoi.png"
-import GladiatorSiege from "../assets/GladiatorSiege.png"
+import Santelmo from "../assets/Santelmo.jpg"
+import DontTouchMyDuck from "../assets/DontTouchMyDuck.jpg"
+import Ratatata from "../assets/Ratatata.jpg"
+import Keeno from "../assets/Keeno.jpg"
+import Giko from "../assets/Giko.jpg"
+import BulletBoi from "../assets/BulletBoi.jpg"
+import GladiatorSiege from "../assets/GladiatorSiege.jpg"
 import { games } from "../data/games";
 
 const developedGamesMap = [

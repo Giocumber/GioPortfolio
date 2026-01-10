@@ -1,5 +1,3 @@
-import Santelmo from "../assets/Santelmo.png";
-
 import { MdOutlineAccessTimeFilled } from "react-icons/md";
 import { TiGroup } from "react-icons/ti";
 import { Link } from "react-router-dom";

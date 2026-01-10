@@ -1,5 +1,5 @@
 import GioImage from "../assets/GioImage.jpg";
-import Background from "../assets/Background.png";
+import Background from "../assets/Background.jpg";
 
 const Hero = () => {
   return (
