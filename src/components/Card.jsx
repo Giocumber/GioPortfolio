@@ -12,6 +12,7 @@ const Card = ({image, title, details, people, time, link}) => {
         src={image}
         alt="Game Thumbnail"
         className="w-full h-55 object-cover"
+        loading="lazy"
       />
 
       {/* Content */}

@@ -30,6 +30,7 @@ const Carousel = ({ slides = []}) => {
           src={currentSlide.src}
           alt={`Slide ${currentIndex}`}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       )}
 
