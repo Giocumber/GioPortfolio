@@ -10,14 +10,6 @@ const Footer = () => {
           If you’re looking for a developer who’s ready to make it happen, let’s
           work together!
         </p>
-
-        <a
-          href="/GioSalceda-CV.pdf"
-          download
-          className="text-blue-500 hover:underline border rounded-sm p-2"
-        >
-          Download my CV
-        </a>
       </div>
     </footer>
   );

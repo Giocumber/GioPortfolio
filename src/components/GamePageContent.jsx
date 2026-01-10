@@ -1,16 +1,17 @@
+import Carousel from './Carousel';
 import ScrollToTop from './ScrollToTop';
 import { useNavigate } from "react-router-dom";
 
-const GamePageLayout = ({ image, title, description }) => {
+const GamePageContent = ({ slides, title, description }) => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className='mt-2'>
       <ScrollToTop/>
-      <h1 className="lg:my-4 text-2xl lg:text-4xl text-yellow font-bold">{title}</h1>
+      <h1 className="mb-2 text-2xl lg:text-4xl text-yellow font-bold">{title}</h1>
 
-      <div className="flex flex-col lg:flex-row space-y-2 lg:space-x-4">
-        <img src={image} alt={title} className=" w-full lg:max-w-3/5 rounded-lg lg:rounded-2xl"></img>
+      <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-x-4 gap-y-4">
+        <Carousel slides={slides}/>
 
         <div className="flex flex-col-reverse lg:flex-col justify-between w-full">
           <p className="text-justify text-md lg:text-2xl text-gray-300">{description}</p>
@@ -35,4 +36,4 @@ const GamePageLayout = ({ image, title, description }) => {
   );
 };
 
-export default GamePageLayout;
+export default GamePageContent;

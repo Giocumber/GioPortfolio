@@ -1,11 +1,11 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import Giko from "../assets/Giko.png";
 import ContributionList from "../components/ContributionList";
 
 const GikoPage = () => {
   return (
     <div className="space-y-16">
-      <GamePageLayout
+      <GamePageContent
         title={"Giko"}
         image={Giko}
         description={`A 3D multiplayer cooperative game where two geckos embark on an adventure together, 

@@ -1,16 +1,18 @@
 import LandingPage from "./pages/LandingPage";
 import Footer from "./sections/Footer";
-
-import SantelmoPage from "./pages/SantelmoPage";
-import GikoPage from "./pages/GikoPage";
-import KeenoPage from "./pages/KeenoPage";
-import RatatataPage from "./pages/RatatataPage";
-import GladiatorSiegePage from "./pages/GladiatorSiegePage";
-import BulletBoiPage from "./pages/BulletBoiPage";
-import DontTouchMyDuckPage from "./pages/DontTouchMyDuckPage";
-
 import Navigation from "./sections/Navigation";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useParams } from "react-router-dom";
+import { games } from "./data/games";
+import GamePage from "./pages/GamePage";
+
+const GameRouteWrapper = () => {
+  const { slug } = useParams();
+  const game = games.find((g) => g.slug === slug);
+
+  if (!game) return <Navigate to="/" replace />;
+
+  return <GamePage {...game} />;
+};
 
 function App() {
   return (
@@ -20,15 +22,7 @@ function App() {
       <main className="px-5 lg:px-20 pt-24 space-y-20">
         <Routes>
           <Route path="/" element={<LandingPage />} />
-
-          <Route path="/santelmo" element={<SantelmoPage />} />
-          <Route path="/giko" element={<GikoPage />} />
-          <Route path="/keeno" element={<KeenoPage />} />
-          <Route path="/ratatata" element={<RatatataPage />} />
-          <Route path="/gladiator-siege" element={<GladiatorSiegePage />} />
-          <Route path="/bullet-boi" element={<BulletBoiPage />} />
-          <Route path="/dont-touch-my-duck" element={<DontTouchMyDuckPage />} />
-
+          <Route path=":slug" element={<GameRouteWrapper />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

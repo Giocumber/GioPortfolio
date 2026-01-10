@@ -1,11 +1,11 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import DontTouchMyDuck from "../assets/DontTouchMyDuck.png";
 import ContributionList from "../components/ContributionList";
 
 const DontTouchMyDuckPage = () => {
   return (
     <div className="space-y-16">
-      <GamePageLayout
+      <GamePageContent
         title={"Don't Touch My Duck: Crops and Quacks"}
         image={DontTouchMyDuck}
         description={`A tower defense–farming hybrid where players manage crops to fuel their defenses

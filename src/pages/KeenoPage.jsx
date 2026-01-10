@@ -1,11 +1,11 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import Keeno from "../assets/Keeno.png";
 import ContributionList from "../components/ContributionList";
 
 const KeenoPage = () => {
   return (
     <div className="space-y-16">
-      <GamePageLayout
+      <GamePageContent
         title={"Keeno"}
         image={Keeno}
         description={`A 3D casual stealth game where players control a rat sneaking in to steal 

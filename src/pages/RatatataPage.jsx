@@ -1,13 +1,24 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import Ratatata from "../assets/Ratatata.png";
+import Keeno from "../assets/Keeno.png"
+import Giko from "../assets/Giko.png"
 import ContributionList from "../components/ContributionList";
 
+
 const RatatataPage = () => {
+  const slides = [
+    { type: "youtube", url: "https://www.youtube.com/watch?v=VIDEO_ID" },
+    { type: "image", src: Ratatata },
+    { type: "image", src: Keeno },
+    { type: "image", src: Giko },
+  ];
+  
   return (
     <div className="space-y-16">
-      <GamePageLayout
+      <img src={Ratatata} alt="Ratata" />
+      <GamePageContent
         title={"Ratatata"}
-        image={Ratatata}
+        slides={slides}
         description={`A souls-like platformer where players take on the role of a rat wizard, 
           mastering precise movement, timing, and spell-based combat to survive challenging 
           encounters with dangerous creatures. The game emphasizes skill-based gameplay, 

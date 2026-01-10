@@ -1,14 +1,24 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import Santelmo from "../assets/Santelmo.png";
+import Ratatata from "../assets/Ratatata.png";
+import Keeno from "../assets/Keeno.png"
+import Giko from "../assets/Giko.png"
 import ContributionList from "../components/ContributionList";
 
 const SantelmoPage = () => {
+  const slides = [
+    { type: "youtube", url: "https://youtu.be/34g3vOz0oa8" },
+    { type: "image", src: Santelmo },
+    { type: "image", src: Ratatata },
+    { type: "image", src: Keeno },
+    { type: "image", src: Giko },
+  ];
+  
   return (
     <div className="space-y-16">
-
-      <GamePageLayout
+      <GamePageContent
         title={"Santelmo"}
-        image={Santelmo}
+        slides={slides}
         description={
           `An action-adventure game inspired by Bicolano culture and folklore, 
           where players take on the role of Santelmo, a glowing fire spirit that guides 

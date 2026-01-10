@@ -1,11 +1,11 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import BulletBoi from "../assets/BulletBoi.png";
 import ContributionList from "../components/ContributionList";
 
 const BulletBoiPage = () => {
   return (
     <div className="space-y-16">
-      <GamePageLayout
+      <GamePageContent
         title={"Bullet Boi"}
         image={BulletBoi}
         description={`A fast-paced 2D shooter built around a unique teleportation mechanic, 

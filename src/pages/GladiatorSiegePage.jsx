@@ -1,11 +1,11 @@
-import GamePageLayout from "../components/GamePageLayout";
+import GamePageContent from "../components/GamePageContent";
 import GladiatorSiege from "../assets/GladiatorSiege.png";
 import ContributionList from "../components/ContributionList";
 
 const GladiatorSiegePage = () => {
   return (
     <div className="space-y-16">
-      <GamePageLayout
+      <GamePageContent
         title={"Gladiator Siege"}
         image={GladiatorSiege}
         description={`A multiplayer casual PvP game where players compete against one another, 

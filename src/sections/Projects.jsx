@@ -6,6 +6,7 @@ import Keeno from "../assets/Keeno.png"
 import Giko from "../assets/Giko.png"
 import BulletBoi from "../assets/BulletBoi.png"
 import GladiatorSiege from "../assets/GladiatorSiege.png"
+import { games } from "../data/games";
 
 const developedGamesMap = [
   {
@@ -15,7 +16,7 @@ const developedGamesMap = [
       celebrating Bicolano culture and folklore. A finalist in the competition.`,
     people: "7",
     time: "2 Weeks" ,
-    link: "/santelmo"
+    link: "santelmo"
   },
 
   {
@@ -25,7 +26,7 @@ const developedGamesMap = [
       National finalist at the Globe Go Gaming Game Dev Competition.`,
     people: "5",
     time: "1 Month" ,
-    link: "/dont-touch-my-duck"
+    link: "dont-touch-my-duck"
   },
 
   {
@@ -85,7 +86,7 @@ const Projects = () => {
     <section id="projects" className="scroll-mt-28">
       <h1 className="text-2xl lg:text-4xl font-bold mb-5 text-yellow">Developed Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {developedGamesMap.map((game, index) => (
+        {games.map((game, index) => (
           <Card 
             key={index}
             image={game.image}
@@ -93,7 +94,7 @@ const Projects = () => {
             details={game.details}
             people={game.people}
             time={game.time}
-            link={game.link}
+            link={game.slug}
           />
         ))}
       </div>

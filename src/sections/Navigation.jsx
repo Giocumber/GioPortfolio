@@ -1,5 +1,7 @@
 import { IoLogoGithub } from "react-icons/io5";
+import { FaGithubSquare } from "react-icons/fa";
 import { FaItchIo } from "react-icons/fa";
+import { HiNewspaper } from "react-icons/hi2";
 import { FaLinkedin } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -140,17 +142,24 @@ const Navigation = () => {
         </div>
 
         {/* SOCIALS */}
-        <div className="flex space-x-2 lg:space-x-4">
+        <div className="flex space-x-2 lg:space-x-4  items-center">
           <Socials
             link="https://linkedin.com/in/gio-salceda-2a36b43a2"
-            
             icon={FaLinkedin}
           />
-          <Socials link="https://newmouse.itch.io/" icon={FaItchIo} />
+          {/* <Socials link="https://newmouse.itch.io/" icon={FaItchIo} /> */}
           <Socials
             link="https://github.com/Giocumber"
-            icon={IoLogoGithub}
+            icon={FaGithubSquare}
           />
+          
+          <a
+            href="/GioSalceda-Resume.pdf"
+            download
+          >
+            <HiNewspaper className="size-10 lg:size-14 hover:text-yellow"/>
+          </a>
+
         </div>
       </div>
     </nav>
